@@ -77,20 +77,78 @@
 									<a href="https://www.eircode.ie/">Here</a>.
 								</div>
 							</div>
+							<div>
+								<h3>Payment</h3>
+								<input
+									class="payment-check-input"
+									type="radio"
+									name="CardDefault"
+									id="CardDefault"
+								/>
+								<label class="payment-check-label" for="CardDefault">
+									Debit/Credit Card
+								</label>
+								<br />
+
+								<input
+									class="payment-check-input"
+									type="radio"
+									name="PayPalDefault"
+									id="PayPalDefault"
+								/>
+								<label class="payment-check-label" for="PayPalDefault">
+									PayPal
+								</label>
+								<br />
+
+								<input
+									class="payment-check-input"
+									type="radio"
+									name="ApplePayDefault"
+									id="ApplePayDefault"
+								/>
+								<label class="payment-check-label" for="PayPalDefault">
+									Apple Pay
+								</label>
+							</div>
+
+							<div class="py-2 my-2">
+								<label for="InputPayment1" class="form-label"
+									>Name on Card</label
+								>
+								<input type="text" class="form-control" id="InputPayment1" />
+
+								<label for="InputPayment2" class="form-label"
+									>Card Number</label
+								>
+								<input type="text" class="form-control" id="InputPayment2" />
+
+								<label for="InputPayment3" class="form-label"
+									>Expiry Date</label
+								>
+								<input type="date" class="form-control" id="InputPayment3" />
+
+								<label for="InputPayment4" class="form-label"
+									>CVV</label
+								>
+								<input type="text" class="form-control" id="InputPayment4" />
+							</div>
 						</div>
 
-						<button type="submit" class="btn btn-warning my-4">Checkout</button>
+						<button type="submit" class="btn btn-secondary my-4">Checkout</button>
 					</form>
 				</div>
-                <div class="col-md-6 py-5 my-5">
+				<div class="col-md-6 py-5 my-5">
 					<h3>Your Order</h3>
-                    <div class="p-3 bg-secondary bg-opacity-10 border border-secondary rounded">
-                        <p>Child Ticket X2 £20</p>
-                        <p>Standard Ticket X2 £40</p>
-                        <p>Stundent Ticket £15</p>
-                        <hr>
-                        <p class="text-success">Total: £75</p>
-                      </div>
+					<div
+						class="p-3 bg-secondary bg-opacity-10 border border-secondary rounded"
+					>
+						<p>Child Ticket X2 £20</p>
+						<p>Standard Ticket X2 £40</p>
+						<p>Student Ticket £15</p>
+						<hr />
+						<p class="text-success">Total: £75</p>
+					</div>
 				</div>
 			</div>
 		</div>
