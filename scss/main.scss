@@ -6,5 +6,16 @@ $light: rgb(115,115,115);
 
 $font-family-base: "Alexandria";
 
+.card-img-top{
+    max-height: 225px;
+    object-fit: cover;
+}
+
+.top-card-img{
+    max-height: 300px
+}
+
+
+
 @import"../node_modules/bootstrap/scss/mixins";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
