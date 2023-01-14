@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+// $enable-rounded:true;
+
 $primary: rgb(135,89,209);
 $secondary: rgb(250,219,95);
 $light: rgb(115,115,115);
@@ -16,6 +18,10 @@ $font-family-base: "Alexandria";
 .top-card-img{
     max-height: 300px
 }
+
+// .eventHeader{
+//     max-width:300px
+// }
 
 // @media screen and (max-width:567px) {
 //     .card:not(:first-child){
